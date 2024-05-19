@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item_1">
+    <fragment
+        android:id="@+id/item_1"
+        android:name="com.example.androidtest.ui.profile.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+    </fragment>
+    <fragment
+        android:id="@+id/item_4"
+        android:name="com.example.androidtest.ui.Basket.basketFragment"
+        android:label="fragment_basket2"
+        tools:layout="@layout/fragment_basket2" >
+    </fragment>
+    <fragment
+        android:id="@+id/item_2"
+        android:name="com.example.androidtest.ui.Catalog.catalogFragment"
+        android:label="fragment_catalog2"
+        tools:layout="@layout/fragment_catalog2" />
+    <fragment
+        android:id="@+id/item_3"
+        android:name="com.example.androidtest.ui.liked.likedFragment"
+        android:label="fragment_liked2"
+        tools:layout="@layout/fragment_liked2" >
+
+    </fragment>
+</navigation>

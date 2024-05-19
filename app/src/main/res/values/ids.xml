@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="back_home" type="id" />
+    <item name="menu_d_name" type="id" />
+    <item name="cardView2" type="id" />
+    <item name="menu_d_image" type="id" />
+    <item name="textView7" type="id" />
+    <item name="short_description_of_food" type="id" />
+    <item name="textView9" type="id" />
+    <item name="menu_d_ingredients" type="id" />
+</resources>
